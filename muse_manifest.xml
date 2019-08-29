@@ -1,10 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tdseher.com" resolutions="1x" timestamp="1523485514506">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tdseher.com" resolutions="1x" timestamp="1567105690372">
   <folder name="css">
     <file name="site_global.css" crc="22464688"/>
-    <file name="index.css" crc="98275744" ref="index"/>
+    <file name="index.css" crc="40792614" ref="index"/>
+    <file name="nomq_index.css" crc="4179009407" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="thaddeus-d-seher_cv_(2018-04-04).pdf" crc="423387272" seo="true" mt="1522884895000"/>
+    <file name="thaddeus-d-seher_cv_(2018-11-13).pdf" crc="244418558" seo="true" mt="1542140612000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -13,6 +15,7 @@
     <file name="museconfig.js" crc="4286661555" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
   </folder>
-  <file name="index.html" crc="3797440260" seo="true" mt="1523485417231" redirect="true"/>
+  <file name="index.html" crc="419856067" seo="true" mt="1567105573568" redirect="true"/>
 </manifest>

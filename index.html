@@ -11,69 +11,78 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>tdseher.com - Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=22464688"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=98275744" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=40792614" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4179009407" id="nomq_pagesheet"/>
+  <![endif]-->
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="clearfix colelem" id="u94-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-    <p>Thaddeus D. Seher</p>
-   </div>
-   <div class="clearfix colelem" id="u115-6" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-    <p>Graduate Student Researcher</p>
-    <p>at UC Merced</p>
-   </div>
-   <div class="clearfix colelem" id="pu100-4"><!-- group -->
-    <div class="clearfix grpelem" id="u100-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p>Email:</p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="401"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox shared_content" id="page" data-content-guid="page_content"><!-- column -->
+    <div class="clearfix colelem" id="u94-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
+     <p>Thaddeus D. Seher</p>
     </div>
-    <div class="clearfix grpelem" id="u124-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p>tseher@ucmerced.edu</p>
+    <div class="clearfix colelem" id="u115-6" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
+     <p>Graduate Student Researcher</p>
+     <p>at UC Merced</p>
     </div>
+    <div class="clearfix colelem" id="pu100-4"><!-- group -->
+     <div class="clearfix grpelem" id="u100-4"><!-- content -->
+      <p>Email:</p>
+     </div>
+     <div class="clearfix grpelem" id="u124-4"><!-- content -->
+      <p>tseher@ucmerced.edu</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu104-4"><!-- group -->
+     <div class="clearfix grpelem" id="u104-4"><!-- content -->
+      <p>CV:</p>
+     </div>
+     <div class="clearfix grpelem" id="u146-5"><!-- content -->
+      <p><a class="nonblock" href="assets/thaddeus-d-seher_cv_(2018-11-13).pdf">PDF</a></p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu119-4"><!-- group -->
+     <div class="clearfix grpelem" id="u119-4"><!-- content -->
+      <p>Twitter:</p>
+     </div>
+     <div class="clearfix grpelem" id="u127-5"><!-- content -->
+      <p><a class="nonblock" href="https://twitter.com/tdseher">@tdseher</a></p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu181-4"><!-- group -->
+     <div class="clearfix grpelem" id="u181-4"><!-- content -->
+      <p>GitHub:</p>
+     </div>
+     <div class="clearfix grpelem" id="u182-5"><!-- content -->
+      <p><a class="nonblock" href="https://github.com/tdseher">github.com/tdseher</a></p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u112-10" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
+     <p>Current research in the <a class="nonblock" href="http://faculty.ucmerced.edu/nobilelab/">Nobile</a> and <a class="nonblock" href="http://faculty.ucmerced.edu/ssindi/">Sindi</a> labs:</p>
+    </div>
+    <div class="clearfix colelem" id="u109-14" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
+     <ul class="list0 nls-None" id="u109-12">
+      <li>Microbial endosymbiont evolution</li>
+      <li>Yeast-bacteria interactions</li>
+      <li>CRISPR/Cas genome engineering bioinformatics</li>
+      <li><span id="u109-7">De novo</span> genome assembly</li>
+      <li>Statistical methods for functional genomics</li>
+     </ul>
+    </div>
+    <div class="verticalspacer" data-offset-top="357" data-content-above-spacer="356" data-content-below-spacer="143" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="clearfix colelem" id="pu104-4"><!-- group -->
-    <div class="clearfix grpelem" id="u104-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p>CV:</p>
-    </div>
-    <div class="clearfix grpelem" id="u146-5" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p><a class="nonblock" href="assets/thaddeus-d-seher_cv_(2018-04-04).pdf">PDF</a></p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu119-4"><!-- group -->
-    <div class="clearfix grpelem" id="u119-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p>Twitter:</p>
-    </div>
-    <div class="clearfix grpelem" id="u127-5" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p><a class="nonblock" href="https://twitter.com/tdseher">@tdseher</a></p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu181-4"><!-- group -->
-    <div class="clearfix grpelem" id="u181-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p>GitHub:</p>
-    </div>
-    <div class="clearfix grpelem" id="u182-5" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-     <p><a class="nonblock" href="https://github.com/tdseher">github.com/tdseher</a></p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="u112-10" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-    <p>Current research in the <a class="nonblock" href="http://faculty.ucmerced.edu/nobilelab/">Nobile</a> and <a class="nonblock" href="http://faculty.ucmerced.edu/ssindi/">Sindi</a> labs:</p>
-   </div>
-   <div class="clearfix colelem" id="u109-14" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-    <ul class="list0 nls-None" id="u109-12">
-     <li>Microbial endosymbiont evolution</li>
-     <li>Yeast-bacteria interactions</li>
-     <li>CRISPR/Cas genome engineering bioinformatics</li>
-     <li><span id="u109-7">De novo</span> genome assembly</li>
-     <li>Statistical methods for functional genomics</li>
-    </ul>
-   </div>
-   <div class="verticalspacer" data-offset-top="355" data-content-above-spacer="355" data-content-below-spacer="144" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <div class="breakpoint" id="bp_400" data-max-width="400"><!-- responsive breakpoint node -->
+   <span class="clearfix borderbox placeholder" data-placeholder-for="page_content"><!-- placeholder node --></span>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -86,13 +95,13 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
