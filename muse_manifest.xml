@@ -1,0 +1,20 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tdseher.com" resolutions="1x" timestamp="1656530728650">
+  <folder name="css">
+    <file name="site_global.css" crc="22464688"/>
+    <file name="index.css" crc="4179711827" ref="index"/>
+    <file name="nomq_index.css" crc="3809836055" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="thaddeus-d.-seher-cv-(2022-06-07).pdf" crc="305789132" seo="true" mt="1654660191000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3939489907" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3936894949" ref="index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="index"/>
+    <file name="require.js" crc="4177726516" ref="index"/>
+  </folder>
+  <file name="index.html" crc="394504034" seo="true" mt="1656530663976" redirect="true"/>
+</manifest>
